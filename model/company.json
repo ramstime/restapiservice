@@ -1,0 +1,99 @@
+{
+    "employees": [
+        {
+            "name": "ankur",
+            "spouse": "anuradha",
+            "Dob": "23 may 1987",
+            "Employee": {
+                "empid": "908123",
+                "emmailid": "",
+                "salary": "2 millions",
+                "Department": "R&D",
+                "products": [
+                    "flight booking",
+                    "5g nodes",
+                    "e-commerse website"
+                ],
+                "revenue": "45 billions",
+                "technology": [
+                    "kubernetes",
+                    "Machine Learning",
+                    "BigData",
+                    "telecom",
+                    "Banking"
+                ],
+                "programming": [
+                    "c++",
+                    "golang",
+                    "python"
+                ],
+                "laptop": "dell",
+                "gender": "male",
+                "address": "banglore local",
+                "team": "Gladiators",
+                "leaves": "20",
+                "hobbies": [
+                    "cricket",
+                    "programming",
+                    "football",
+                    "technology",
+                    "movies"
+                ]
+            },
+            "id": "Driving license",
+            "nationality": "india"
+        },
+        {
+            "name": "rajesh khanna",
+            "spouse": "tina munim",
+            "Dob": "23 may 1987",
+            "Employee": {
+                "empid": "908999",
+                "emmailid": "",
+                "salary": "2 millions",
+                "Department": "R&D",
+                "products": [
+                    "flight booking",
+                    "5g nodes",
+                    "e-commerse website"
+                ],
+                "revenue": "45 billions",
+                "technology": [
+                    "kubernetes",
+                    "Machine Learning",
+                    "BigData",
+                    "telecom",
+                    "Banking"
+                ],
+                "programming": [
+                    "c++",
+                    "golang",
+                    "python"
+                ],
+                "laptop": "dell",
+                "gender": "male",
+                "address": "banglore local",
+                "team": "Gladiators",
+                "leaves": "20",
+                "hobbies": [
+                    "cricket",
+                    "programming",
+                    "football",
+                    "technology",
+                    "movies"
+                ]
+            },
+            "id": "Driving license",
+            "nationality": "india"
+        }
+    ],
+    "Name": "cisco",
+    "revenue": "200 billions",
+    "totalemp": 30000,
+    "branches": [
+        "india",
+        "america",
+        "germany"
+    ],
+    "ID": "cisco - 323"
+}

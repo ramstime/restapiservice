@@ -1,0 +1,342 @@
+
+
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "employees": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "spouse": {
+              "type": "string"
+            },
+            "Dob": {
+              "type": "string"
+            },
+            "Employee": {
+              "type": "object",
+              "properties": {
+                "empid": {
+                  "type": "string"
+                },
+                "emmailid": {
+                  "type": "string"
+                },
+                "salary": {
+                  "type": "string"
+                },
+                "Department": {
+                  "type": "string"
+                },
+                "products": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    }
+                  ]
+                },
+                "revenue": {
+                  "type": "string"
+                },
+                "technology": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    }
+                  ]
+                },
+                "programming": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    }
+                  ]
+                },
+                "laptop": {
+                  "type": "string"
+                },
+                "gender": {
+                  "type": "string"
+                },
+                "address": {
+                  "type": "string"
+                },
+                "team": {
+                  "type": "string"
+                },
+                "leaves": {
+                  "type": "string"
+                },
+                "hobbies": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "empid",
+                "emmailid",
+                "salary",
+                "Department",
+                "products",
+                "revenue",
+                "technology",
+                "programming",
+                "laptop",
+                "gender",
+                "address",
+                "team",
+                "leaves",
+                "hobbies"
+              ]
+            },
+            "id": {
+              "type": "string"
+            },
+            "nationality": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "name",
+            "spouse",
+            "Dob",
+            "Employee",
+            "id",
+            "nationality"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "spouse": {
+              "type": "string"
+            },
+            "Dob": {
+              "type": "string"
+            },
+            "Employee": {
+              "type": "object",
+              "properties": {
+                "empid": {
+                  "type": "string"
+                },
+                "emmailid": {
+                  "type": "string"
+                },
+                "salary": {
+                  "type": "string"
+                },
+                "Department": {
+                  "type": "string"
+                },
+                "products": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    }
+                  ]
+                },
+                "revenue": {
+                  "type": "string"
+                },
+                "technology": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    }
+                  ]
+                },
+                "programming": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    }
+                  ]
+                },
+                "laptop": {
+                  "type": "string"
+                },
+                "gender": {
+                  "type": "string"
+                },
+                "address": {
+                  "type": "string"
+                },
+                "team": {
+                  "type": "string"
+                },
+                "leaves": {
+                  "type": "string"
+                },
+                "hobbies": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "empid",
+                "emmailid",
+                "salary",
+                "Department",
+                "products",
+                "revenue",
+                "technology",
+                "programming",
+                "laptop",
+                "gender",
+                "address",
+                "team",
+                "leaves",
+                "hobbies"
+              ]
+            },
+            "id": {
+              "type": "string"
+            },
+            "nationality": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "name",
+            "spouse",
+            "Dob",
+            "Employee",
+            "id",
+            "nationality"
+          ]
+        }
+      ]
+    },
+    "Name": {
+      "type": "string"
+    },
+    "revenue": {
+      "type": "string"
+    },
+    "totalemp": {
+      "type": "integer"
+    },
+    "branches": {
+      "type": "array",
+      "items": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "ID": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "employees",
+    "Name",
+    "revenue",
+    "totalemp",
+    "branches",
+    "ID"
+  ]
+}
+
