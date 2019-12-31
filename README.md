@@ -1,13 +1,24 @@
 # restapiservice
-Golang REST API server with Redis database
+
+Golang REST API server with Redis database. It will expose APIs for creating/updating different company information in webserver.
+
+
+    GET - Reads an existing resource
+    POST - Creates a new resource
+    PUT - Updates an existing resource
+    DELETE - Deletes an existing resource
+
 
 #compile
+
 go build .
 
 #run
+
 ./restapiservice
 
 #test
+
 from browser/postman/curl hit the fallowing urls
 
 POST
