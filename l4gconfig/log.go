@@ -6,10 +6,10 @@ import (
 	"net/http"
 	"os"
 	"path/filepath"
-	"strings"
+	//"strings"
 	"time"
 
-	l4g "code.google.com/p/log4go"
+	l4g "github.com/jeanphorn/log4go" //"code.google.com/p/log4go"
 
 	"github.com/gorilla/mux"
 )
@@ -90,7 +90,7 @@ func createTempLogSetting(appname, dir string) (string, string, error) {
 	}
 	return logSettingFileName, logFileName, err
 }
-
+/*
 // Handles set and get requests for loglevels.
 func handleLogLevel(reqName string) http.HandlerFunc {
 	hfunc := func(w http.ResponseWriter, r *http.Request) {
@@ -123,13 +123,14 @@ func handleLogLevel(reqName string) http.HandlerFunc {
 	}
 	return hfunc
 }
+*/
 
 //StartloglevelChangeListener starts a logchange  listener for dynamic log level change
 func StartloglevelChangeListener() {
 	//Dynamic loglevel change
 	router := mux.NewRouter()
-	router.HandleFunc("/getloglevel", handleLogLevel("Get"))
-	router.HandleFunc("/setloglevel/{Level:"+regEx+"}", handleLogLevel("Set"))
+	//router.HandleFunc("/getloglevel", handleLogLevel("Get"))
+	//router.HandleFunc("/setloglevel/{Level:"+regEx+"}", handleLogLevel("Set"))
 	l4gport := os.Getenv("L4GPORT")
 	if l4gport == "" {
 		l4gport = "1234" //default port
