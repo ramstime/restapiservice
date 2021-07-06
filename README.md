@@ -1,4 +1,4 @@
-# restapiservice (Go HTTP WebServer i.e. API gateway)
+# rest api service (Golang API Gateway with Redis DB)
 
 Golang REST API server with Redis database. It will expose APIs for creating/updating different company information in webserver.
 
@@ -11,11 +11,11 @@ Golang REST API server with Redis database. It will expose APIs for creating/upd
 
 #compile
 
-go build .
+make
 
 #run
 
-./restapiservice
+./bin/restapiservice
 
 #test
 
